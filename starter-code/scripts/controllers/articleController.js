@@ -2,7 +2,9 @@
   var articleController = {};
 
   articleController.reveal = function() {
-    /* TODO: Reveal only the articles section! */
+    /* TODO: Done  Reveal only the articles section! */
+    $('main section').hide();
+    $('#articles').show();
   };
 
   module.articleController = articleController;
